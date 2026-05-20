@@ -1,2 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap');
-:root{font-family:Cairo,system-ui;background:#f8fafc;color:#0f172a} .dark{background:#020617;color:#fff} body{margin:0;direction:rtl} button,.primary{border:0;border-radius:16px;padding:12px 18px;font-weight:800;cursor:pointer;display:inline-flex;gap:8px;align-items:center;justify-content:center} input,textarea{width:100%;box-sizing:border-box;border-radius:14px;border:1px solid #cbd5e1;padding:14px;margin:8px 0;background:white;color:#0f172a} textarea{min-height:140px}.dark input,.dark textarea{background:#0f172a;color:white;border-color:#334155}.login{min-height:100vh;display:grid;place-items:center;background:linear-gradient(135deg,#0f172a,#1e40af)}.login section{width:min(420px,90vw);background:rgba(255,255,255,.12);backdrop-filter:blur(18px);padding:34px;border-radius:30px;color:white;box-shadow:0 20px 60px rgba(0,0,0,.35)}.login h1{font-size:54px;margin:0}.login h2{font-size:32px}.theme{position:fixed;top:20px;left:20px}.primary{background:#2563eb;color:white;text-decoration:none}.app header{display:flex;justify-content:space-between;align-items:center;padding:18px 28px;border-bottom:1px solid #e2e8f0}.dark .app header{border-color:#1e293b}.app nav{display:flex;gap:8px;flex-wrap:wrap}.app nav button{background:transparent;color:inherit}.card{max-width:900px;margin:38px auto;padding:30px;border-radius:28px;background:white;box-shadow:0 12px 40px rgba(15,23,42,.08)}.dark .card{background:#0f172a}.grid{max-width:1100px;margin:38px auto;display:grid;grid-template-columns:2fr 1fr;gap:20px}.drop{border:2px dashed #60a5fa;border-radius:28px;padding:50px;display:grid;place-items:center;gap:15px;cursor:pointer}.drop input{display:none}.preview{height:300px;border-radius:24px;background:#020617;color:white;display:grid;place-items:center;margin:20px 0}.row{display:flex;justify-content:space-between;padding:14px;border-bottom:1px solid #e2e8f0}.hint{color:#64748b} footer{text-align:center;color:#64748b;padding:40px}@media(max-width:800px){.grid{grid-template-columns:1fr;margin:18px}.card{margin:18px}.app header{display:block}.app nav{margin-top:14px}.login h1{font-size:42px}}
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap");
+
+:root {
+  font-family: Cairo, system-ui;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+body {
+  margin: 0;
+  padding: 40px;
+  direction: rtl;
+  background: #f8fafc;
+}
+
+.card {
+  background: white;
+  border-radius: 24px;
+  padding: 30px;
+  max-width: 700px;
+  margin: auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 24px;
+  line-height: 2;
+}
